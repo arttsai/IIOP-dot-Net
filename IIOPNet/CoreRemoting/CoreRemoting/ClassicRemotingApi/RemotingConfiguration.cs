@@ -25,7 +25,9 @@ namespace CoreRemoting.ClassicRemotingApi
         /// Gets a list of currently registered CoreRemoting client instances.
         /// </summary>
         public static IRemotingClient[] RegisteredClientInstances => RemotingClient.ActiveClientInstances.ToArray();
-        
+
+        public static string ApplicationName { get; set; }
+
         /// <summary>
         /// Gets a registered server instance by its unique name.
         /// </summary>

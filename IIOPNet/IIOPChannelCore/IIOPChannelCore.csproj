@@ -4,4 +4,8 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CoreRemoting\CoreRemoting\CoreRemoting.csproj" />
+    </ItemGroup>
+
 </Project>
