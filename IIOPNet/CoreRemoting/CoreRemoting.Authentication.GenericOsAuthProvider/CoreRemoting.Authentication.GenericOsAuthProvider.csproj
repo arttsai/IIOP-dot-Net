@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>CoreRemoting.Authentication</RootNamespace>
+        <AssemblyName>CoreRemoting.Authentication.GenericOsAuthProvider</AssemblyName>
+        <PackageVersion>1.1.7</PackageVersion>
+        <Authors>Hagen Siegel</Authors>
+        <Description>Generic OS user authentication provider for CoreRemoting</Description>
+        <Copyright>2020 Hagen Siegel</Copyright>
+        <PackageProjectUrl>https://github.com/theRainbird/CoreRemoting</PackageProjectUrl>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>CoreRemoting.Authentication.GenericOsAuthProvider</Title>
+        <RepositoryUrl>https://github.com/theRainbird/CoreRemoting.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Remoting RPC Network Authentication Windows Linux</PackageTags>
+        <AssemblyVersion>1.1.7</AssemblyVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CoreRemoting.Authentication.LinuxPamAuthProvider\CoreRemoting.Authentication.LinuxPamAuthProvider.csproj" />
+      <ProjectReference Include="..\CoreRemoting.Authentication.WindowsAuthProvider\CoreRemoting.Authentication.WindowsAuthProvider.csproj" />
+      <ProjectReference Include="..\CoreRemoting\CoreRemoting.csproj" />
+    </ItemGroup>
+
+</Project>
