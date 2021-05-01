@@ -79,6 +79,9 @@ namespace Ch.Elca.Iiop.Idl {
             asmname.Version = new Version(0, 0, 0, 0);
             asmname.CultureInfo = CultureInfo.InvariantCulture;
             asmname.SetPublicKeyToken(new byte[0]);
+            
+            //todo though .net core has this function, but it doesn't exist in AppDomain anymore 
+            // the problem might be caused by AppDomain. 
             m_asmBuilder = System.Threading.Thread.GetDomain().
                 DefineDynamicAssembly(asmname, AssemblyBuilderAccess.Run);
             m_modBuilder = m_asmBuilder.DefineDynamicModule("dynBoxed.netmodule");

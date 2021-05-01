@@ -1,7 +1,7 @@
 
 
 using System;
-using System.Runtime.Remoting.Messaging;
+using CoreRemoting;
 
 
 namespace Ch.Elca.Iiop.Idl {

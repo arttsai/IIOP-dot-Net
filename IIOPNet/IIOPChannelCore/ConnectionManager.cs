@@ -38,6 +38,7 @@ using omg.org.CORBA;
 using Ch.Elca.Iiop.Services;
 using Ch.Elca.Iiop.Util;
 using Ch.Elca.Iiop.CorbaObjRef;
+using CoreRemoting;
 
 namespace Ch.Elca.Iiop {
 

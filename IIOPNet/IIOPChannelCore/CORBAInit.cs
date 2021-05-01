@@ -31,11 +31,11 @@
 using System;
 using System.Collections;
 using System.Runtime.Remoting;
-using System.Runtime.Remoting.Channels;
 using Ch.Elca.Iiop;
 using Ch.Elca.Iiop.Util;
 using Ch.Elca.Iiop.CorbaObjRef;
 using Ch.Elca.Iiop.Idl;
+using CoreRemoting.ClassicRemotingApi;
 using omg.org.CosNaming;
 
 namespace Ch.Elca.Iiop.Services {

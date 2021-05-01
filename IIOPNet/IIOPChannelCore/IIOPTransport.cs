@@ -41,6 +41,7 @@ using Ch.Elca.Iiop.Services;
 using Ch.Elca.Iiop.Cdr;
 using Ch.Elca.Iiop.MessageHandling;
 using Ch.Elca.Iiop.Util;
+using CoreRemoting;
 
 namespace Ch.Elca.Iiop {
 

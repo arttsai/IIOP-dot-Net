@@ -34,6 +34,7 @@ using System.Collections;
 using System.Reflection;
 using System.Diagnostics;
 using Ch.Elca.Iiop.Idl;
+using CoreRemoting.ClassicRemotingApi;
 using omg.org.CORBA;
 
 namespace Ch.Elca.Iiop {

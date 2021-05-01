@@ -10,6 +10,7 @@ using System.Globalization;
 using System.Security.Cryptography;
 using System.Threading;
 using CoreRemoting.ClassicRemotingApi;
+using MarshalByRefObject = CoreRemoting.MSMissed.MarshalByRefObject;
 
 namespace CoreRemoting
 {

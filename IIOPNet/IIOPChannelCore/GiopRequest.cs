@@ -35,6 +35,8 @@ using System.Diagnostics;
 using Ch.Elca.Iiop.Idl;
 using Ch.Elca.Iiop.Util;
 using Ch.Elca.Iiop.Interception;
+using CoreRemoting;
+using CoreRemoting.ClassicRemotingApi;
 using omg.org.CORBA;
 using omg.org.IOP;
 using omg.org.PortableInterceptor;

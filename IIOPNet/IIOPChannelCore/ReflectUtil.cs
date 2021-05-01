@@ -63,7 +63,7 @@ namespace Ch.Elca.Iiop.Util {
         private static Type s_stringValueAttrType = typeof(StringValueAttribute);
         private static Type s_fromIdlNameAttributeType = typeof(FromIdlNameAttribute);
         private static Type s_throwsIdlExceptionAttributeType = typeof(ThrowsIdlExceptionAttribute);
-        private static Type s_oneWayAttributeType = typeof(System.Runtime.Remoting.Messaging.OneWayAttribute);
+        private static Type s_oneWayAttributeType = typeof(CoreRemoting.OneWayAttribute);
         private static Type s_iOrderedAttributeType = typeof(IOrderedAttribute);
         private static Type s_contextElementAttributeType = typeof(ContextElementAttribute);
         private static Type s_supportedInterfaceAttributeType = typeof(SupportedInterfaceAttribute);

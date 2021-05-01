@@ -28,9 +28,6 @@
  */
 
 using System;
-using System.ComponentModel;
-using System.Runtime.Remoting;
-using System.Runtime.Remoting.Channels;
 using System.Diagnostics;
 using System.Collections;
 using System.Reflection;
@@ -39,6 +36,7 @@ using Ch.Elca.Iiop.Util;
 using Ch.Elca.Iiop.Idl;
 using Ch.Elca.Iiop.CorbaObjRef;
 using Corba;
+using CoreRemoting.ClassicRemotingApi;
 using omg.org.CORBA;
 
 namespace Ch.Elca.Iiop.Marshalling {

@@ -35,6 +35,7 @@ using System.Threading;
 using Ch.Elca.Iiop.CorbaObjRef;
 using Ch.Elca.Iiop.Idl;
 using Ch.Elca.Iiop.Interception;
+using CoreRemoting.ClassicRemotingApi;
 using omg.org.CORBA;
 using omg.org.PortableInterceptor;
 

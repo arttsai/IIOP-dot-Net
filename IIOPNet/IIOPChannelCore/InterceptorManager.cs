@@ -293,7 +293,7 @@ namespace Ch.Elca.Iiop.Interception {
         }
  
  
-        /// <summary><see cref="omg.org.IOP.ORBInitInfo.orb_id"></see></summary>
+        /// <summary><see cref="ORBInitInfo.orb_id"></see></summary>
         [StringValue()]
         [WideChar(false)]
         public string orb_id {
@@ -303,7 +303,7 @@ namespace Ch.Elca.Iiop.Interception {
         }
  
  
-        /// <summary><see cref="omg.org.IOP.ORBInitInfo.codec_factory"></see></summary>
+        /// <summary><see cref="ORBInitInfo.codec_factory"></see></summary>
         public omg.org.IOP.CodecFactory codec_factory {
             get {
                 return m_codecFactory;
@@ -333,7 +333,7 @@ namespace Ch.Elca.Iiop.Interception {
         }
  
         /// <summary>
-        /// <see cref="omg.org.IOP.ORBInitInfo.allocate_slot_id"></see>
+        /// <see cref="ORBInitInfo.allocate_slot_id"></see>
         /// </summary>
         public int allocate_slot_id() {
             return m_orb.PICurrentManager.AllocateSlotId();

@@ -31,6 +31,7 @@ using System;
 using System.Runtime.Remoting;
 using Ch.Elca.Iiop.Idl;
 using Ch.Elca.Iiop.Util;
+using CoreRemoting.ClassicRemotingApi;
 using omg.org.CosNaming;
 using omg.org.CORBA;
 

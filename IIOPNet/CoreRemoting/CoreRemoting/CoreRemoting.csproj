@@ -48,5 +48,9 @@
     <ItemGroup>
       <Protobuf Include="**/*.proto" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\..\IdlToClsCompilerCore\IdlToClsCompilerCore.csproj" />
+    </ItemGroup>
 
 </Project>

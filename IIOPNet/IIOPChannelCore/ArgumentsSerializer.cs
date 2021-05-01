@@ -34,6 +34,7 @@ using System.Reflection;
 using Ch.Elca.Iiop.Cdr;
 using Ch.Elca.Iiop.Idl;
 using Ch.Elca.Iiop.Util;
+using CoreRemoting;
 
 namespace Ch.Elca.Iiop.Marshalling {
 

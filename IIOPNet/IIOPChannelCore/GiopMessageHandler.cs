@@ -41,6 +41,8 @@ using Ch.Elca.Iiop.Util;
 using Ch.Elca.Iiop.CorbaObjRef;
 using Ch.Elca.Iiop.Marshalling;
 using Ch.Elca.Iiop.Interception;
+using CoreRemoting;
+using CoreRemoting.ClassicRemotingApi;
 
 namespace Ch.Elca.Iiop.MessageHandling {
 

@@ -27,14 +27,10 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-using System;
 using System.Collections;
 using System.Diagnostics;
 using Ch.Elca.Iiop.Cdr;
 using Ch.Elca.Iiop.Idl;
-using System.Runtime.Remoting;
-using System.Runtime.Remoting.Messaging;
-using Ch.Elca.Iiop.CorbaObjRef;
 
 
 namespace omg.org.IOP {

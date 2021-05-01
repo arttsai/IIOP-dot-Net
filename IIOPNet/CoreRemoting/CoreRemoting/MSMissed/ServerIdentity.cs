@@ -4,11 +4,14 @@
 // MVID: 26BACF2A-B3E7-4E5B-9AB6-134973DBE886
 // Assembly location: C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
 
+using System;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using System.Threading;
+using CoreRemoting.ClassicRemotingApi;
+using CoreRemoting.MSMissed;
 
 namespace CoreRemoting
 {

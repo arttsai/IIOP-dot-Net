@@ -42,6 +42,7 @@ using Ch.Elca.Iiop.Util;
 using Ch.Elca.Iiop.CorbaObjRef;
 using Ch.Elca.Iiop.Interception;
 using Ch.Elca.Iiop.MessageHandling;
+using CoreRemoting;
 using omg.org.IOP;
 
 #if DEBUG_LOGFILE

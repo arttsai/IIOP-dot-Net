@@ -74,6 +74,8 @@ namespace CoreRemoting.ClassicRemotingApi
 
             return serviceName;
         }
+        
+        
 
         /// <summary>
         /// Creates a proxy for a remote CoreRemoting service.

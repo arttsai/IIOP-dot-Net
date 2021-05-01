@@ -75,8 +75,13 @@ namespace Ch.Elca.Iiop.Idl {
             asmname.Version = new Version(0, 0, 0, 0);
             asmname.CultureInfo = CultureInfo.InvariantCulture;            
             asmname.SetPublicKeyToken(new byte[0]);
-            m_asmBuilder = System.Threading.Thread.GetDomain().
-                DefineDynamicAssembly(asmname, AssemblyBuilderAccess.Run);
+            
+            // original
+            // m_asmBuilder = System.Threading.Thread.GetDomain().
+            //     DefineDynamicAssembly(asmname, AssemblyBuilderAccess.Run);
+            m_asmBuilder = System.Reflection.Emit.AssemblyBuilder
+                .DefineDynamicAssembly(asmname, AssemblyBuilderAccess.Run);
+            
             m_modBuilder = m_asmBuilder.DefineDynamicModule("typecodeTypes");            
         }
 

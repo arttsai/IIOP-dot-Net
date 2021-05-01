@@ -31,6 +31,7 @@ using System;
 using System.Collections;
 using Ch.Elca.Iiop.CorbaObjRef;
 using Ch.Elca.Iiop.Interception;
+using CoreRemoting;
 using omg.org.IOP;
 
 namespace Ch.Elca.Iiop.MessageHandling {

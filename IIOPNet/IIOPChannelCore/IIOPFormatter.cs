@@ -41,6 +41,8 @@ using Ch.Elca.Iiop.Util;
 using Ch.Elca.Iiop.Interception;
 using Ch.Elca.Iiop.Idl;
 using Ch.Elca.Iiop.Cdr;
+using CoreRemoting;
+using CoreRemoting.ClassicRemotingApi;
 using omg.org.CORBA;
 
 namespace Ch.Elca.Iiop {
