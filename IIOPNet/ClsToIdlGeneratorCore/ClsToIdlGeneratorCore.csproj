@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CoreRemoting\CoreRemoting\CoreRemoting.csproj" />
+      <ProjectReference Include="..\IIOPChannelCore\IIOPChannelCore.csproj" />
+    </ItemGroup>
+
+</Project>
